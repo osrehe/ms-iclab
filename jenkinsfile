@@ -8,7 +8,6 @@ pipeline {
                 sh './mvnw clean compile -e'
 
             }
-           
             post {
                 success {
                     echo 'Build Success'
